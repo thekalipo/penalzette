@@ -67,6 +67,9 @@
     <Compile Include="CréationCompo.xaml.cs">
       <DependentUpon>CréationCompo.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Menu.xaml.cs">
+      <DependentUpon>Menu.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Recapitulatif.xaml.cs">
       <DependentUpon>Recapitulatif.xaml</DependentUpon>
     </Compile>
@@ -81,6 +84,9 @@
     </Compile>
     <Compile Include="ResultatRechercheJoueur.xaml.cs">
       <DependentUpon>ResultatRechercheJoueur.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SélectionEquipe.xaml.cs">
+      <DependentUpon>SélectionEquipe.xaml</DependentUpon>
     </Compile>
     <Page Include="Accueil.xaml">
       <SubType>Designer</SubType>
@@ -110,6 +116,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Menu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Recapitulatif.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -127,6 +137,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="ResultatRechercheJoueur.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SélectionEquipe.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -160,7 +174,30 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="image\entraineur\" />
-    <Folder Include="image\joueur\" />
+    <Folder Include="image\joueur\Bundesliga\" />
+    <Folder Include="image\joueur\LigaSantander\" />
+    <Folder Include="image\joueur\Ligue1\ANGERS\" />
+    <Folder Include="image\joueur\Ligue1\ASM\" />
+    <Folder Include="image\joueur\Ligue1\ASSE\" />
+    <Folder Include="image\joueur\Ligue1\BASTIA\" />
+    <Folder Include="image\joueur\Ligue1\CAEN\" />
+    <Folder Include="image\joueur\Ligue1\DIJON\" />
+    <Folder Include="image\joueur\Ligue1\GDB\" />
+    <Folder Include="image\joueur\Ligue1\GUINGAMP\" />
+    <Folder Include="image\joueur\Ligue1\LILLE\" />
+    <Folder Include="image\joueur\Ligue1\LORIENT\" />
+    <Folder Include="image\joueur\Ligue1\METZ\" />
+    <Folder Include="image\joueur\Ligue1\MONTPELLIER\" />
+    <Folder Include="image\joueur\Ligue1\NANCY\" />
+    <Folder Include="image\joueur\Ligue1\NANTES\" />
+    <Folder Include="image\joueur\Ligue1\NICE\" />
+    <Folder Include="image\joueur\Ligue1\OL\" />
+    <Folder Include="image\joueur\Ligue1\OM\" />
+    <Folder Include="image\joueur\Ligue1\PSG\" />
+    <Folder Include="image\joueur\Ligue1\RENNES\" />
+    <Folder Include="image\joueur\Ligue1\TOULOUSE\" />
+    <Folder Include="image\joueur\PremierLeague\" />
+    <Folder Include="image\joueur\SerieA\" />
     <Folder Include="image\logoEquipe\" />
     <Folder Include="image\logoLigue\" />
   </ItemGroup>
