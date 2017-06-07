@@ -61,11 +61,11 @@
     <Compile Include="ChoixLigue.xaml.cs">
       <DependentUpon>ChoixLigue.xaml</DependentUpon>
     </Compile>
-    <Compile Include="CréationEquipe.xaml.cs">
-      <DependentUpon>CréationEquipe.xaml</DependentUpon>
+    <Compile Include="CreationEquipe.xaml.cs">
+      <DependentUpon>CreationEquipe.xaml</DependentUpon>
     </Compile>
-    <Compile Include="CréationCompo.xaml.cs">
-      <DependentUpon>CréationCompo.xaml</DependentUpon>
+    <Compile Include="CreationCompo.xaml.cs">
+      <DependentUpon>CreationCompo.xaml</DependentUpon>
     </Compile>
     <Compile Include="Menu.xaml.cs">
       <DependentUpon>Menu.xaml</DependentUpon>
@@ -85,8 +85,8 @@
     <Compile Include="ResultatRechercheJoueur.xaml.cs">
       <DependentUpon>ResultatRechercheJoueur.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SélectionEquipe.xaml.cs">
-      <DependentUpon>SélectionEquipe.xaml</DependentUpon>
+    <Compile Include="SelectionEquipe.xaml.cs">
+      <DependentUpon>SelectionEquipe.xaml</DependentUpon>
     </Compile>
     <Page Include="Accueil.xaml">
       <SubType>Designer</SubType>
@@ -96,11 +96,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="CréationEquipe.xaml">
+    <Page Include="CreationEquipe.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="CréationCompo.xaml">
+    <Page Include="CreationCompo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -140,7 +140,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SélectionEquipe.xaml">
+    <Page Include="SelectionEquipe.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -174,8 +174,44 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="image\entraineur\" />
-    <Folder Include="image\joueur\Bundesliga\" />
-    <Folder Include="image\joueur\LigaSantander\" />
+    <Folder Include="image\joueur\Bundesliga\AUGSBOURG\" />
+    <Folder Include="image\joueur\Bundesliga\BAYERN\" />
+    <Folder Include="image\joueur\Bundesliga\COLOGNE\" />
+    <Folder Include="image\joueur\Bundesliga\DARMSTADT\" />
+    <Folder Include="image\joueur\Bundesliga\DORTMUND\" />
+    <Folder Include="image\joueur\Bundesliga\EINTRACHT\" />
+    <Folder Include="image\joueur\Bundesliga\FRIBOURG\" />
+    <Folder Include="image\joueur\Bundesliga\HAMBOURG\" />
+    <Folder Include="image\joueur\Bundesliga\HERTHA_BSC\" />
+    <Folder Include="image\joueur\Bundesliga\HOFFENHEIM\" />
+    <Folder Include="image\joueur\Bundesliga\INGOLSTADT\" />
+    <Folder Include="image\joueur\Bundesliga\LEVERKUSEN\" />
+    <Folder Include="image\joueur\Bundesliga\MAINZ_05\" />
+    <Folder Include="image\joueur\Bundesliga\MONCHENGLADBACH\" />
+    <Folder Include="image\joueur\Bundesliga\RB_LEIPZIG\" />
+    <Folder Include="image\joueur\Bundesliga\SCHALKE\" />
+    <Folder Include="image\joueur\Bundesliga\WERDER\" />
+    <Folder Include="image\joueur\Bundesliga\WOLFSBOURG\" />
+    <Folder Include="image\joueur\LigaSantander\ALAVES\" />
+    <Folder Include="image\joueur\LigaSantander\ATHLETIC_BILBAO\" />
+    <Folder Include="image\joueur\LigaSantander\ATLETICO_DE_MADRID\" />
+    <Folder Include="image\joueur\LigaSantander\BETIS_SEVILLE\" />
+    <Folder Include="image\joueur\LigaSantander\CELTA_VIGO\" />
+    <Folder Include="image\joueur\LigaSantander\DEPORTIVO_LA_COROGNE\" />
+    <Folder Include="image\joueur\LigaSantander\EIBAR\" />
+    <Folder Include="image\joueur\LigaSantander\ESPANYOL_BARCELONE\" />
+    <Folder Include="image\joueur\LigaSantander\FC_BARCELONE\" />
+    <Folder Include="image\joueur\LigaSantander\GRANADA_CF\" />
+    <Folder Include="image\joueur\LigaSantander\LAS_PALMAS\" />
+    <Folder Include="image\joueur\LigaSantander\LEGANES\" />
+    <Folder Include="image\joueur\LigaSantander\MALAGA\" />
+    <Folder Include="image\joueur\LigaSantander\OSASUNA\" />
+    <Folder Include="image\joueur\LigaSantander\REAL_MADRID\" />
+    <Folder Include="image\joueur\LigaSantander\REAL_SOCIEDAD\" />
+    <Folder Include="image\joueur\LigaSantander\SEVILLE_FC\" />
+    <Folder Include="image\joueur\LigaSantander\SPORTING_GIJON\" />
+    <Folder Include="image\joueur\LigaSantander\VALENCE_CF\" />
+    <Folder Include="image\joueur\LigaSantander\VILLARREAL\" />
     <Folder Include="image\joueur\Ligue1\ANGERS\" />
     <Folder Include="image\joueur\Ligue1\ASM\" />
     <Folder Include="image\joueur\Ligue1\ASSE\" />
@@ -196,9 +232,51 @@
     <Folder Include="image\joueur\Ligue1\PSG\" />
     <Folder Include="image\joueur\Ligue1\RENNES\" />
     <Folder Include="image\joueur\Ligue1\TOULOUSE\" />
-    <Folder Include="image\joueur\PremierLeague\" />
-    <Folder Include="image\joueur\SerieA\" />
-    <Folder Include="image\logoEquipe\" />
+    <Folder Include="image\joueur\PremierLeague\ARSENAL\" />
+    <Folder Include="image\joueur\PremierLeague\BOURNEMOUTH\" />
+    <Folder Include="image\joueur\PremierLeague\BURNLEY\" />
+    <Folder Include="image\joueur\PremierLeague\CHELSEA\" />
+    <Folder Include="image\joueur\PremierLeague\CRYSTAL_PALACE\" />
+    <Folder Include="image\joueur\PremierLeague\EVERTON\" />
+    <Folder Include="image\joueur\PremierLeague\HULL\" />
+    <Folder Include="image\joueur\PremierLeague\LEICESTER\" />
+    <Folder Include="image\joueur\PremierLeague\LIVERPOOL\" />
+    <Folder Include="image\joueur\PremierLeague\MANCHESTER_CITY\" />
+    <Folder Include="image\joueur\PremierLeague\MANCHESTER_UNITED\" />
+    <Folder Include="image\joueur\PremierLeague\MIDDLESBROUGH\" />
+    <Folder Include="image\joueur\PremierLeague\SOUTHAMPTON\" />
+    <Folder Include="image\joueur\PremierLeague\STOKE\" />
+    <Folder Include="image\joueur\PremierLeague\SUNDERLAND\" />
+    <Folder Include="image\joueur\PremierLeague\SWANSEA\" />
+    <Folder Include="image\joueur\PremierLeague\TOTTENHAM\" />
+    <Folder Include="image\joueur\PremierLeague\WATFORD\" />
+    <Folder Include="image\joueur\PremierLeague\WEST_BROMWICH_ALBION\" />
+    <Folder Include="image\joueur\PremierLeague\WEST_Ham\" />
+    <Folder Include="image\joueur\SerieA\ATALANTA\" />
+    <Folder Include="image\joueur\SerieA\BOLOGNE\" />
+    <Folder Include="image\joueur\SerieA\CAGLIARI\" />
+    <Folder Include="image\joueur\SerieA\CHIEVO\" />
+    <Folder Include="image\joueur\SerieA\CROTONE\" />
+    <Folder Include="image\joueur\SerieA\EMPOLI\" />
+    <Folder Include="image\joueur\SerieA\FIORENTINA\" />
+    <Folder Include="image\joueur\SerieA\GENOA\" />
+    <Folder Include="image\joueur\SerieA\INTER\" />
+    <Folder Include="image\joueur\SerieA\JUVENTUS\" />
+    <Folder Include="image\joueur\SerieA\LAZIO\" />
+    <Folder Include="image\joueur\SerieA\MILAN\" />
+    <Folder Include="image\joueur\SerieA\NAPLES\" />
+    <Folder Include="image\joueur\SerieA\PALERME\" />
+    <Folder Include="image\joueur\SerieA\PESCARA\" />
+    <Folder Include="image\joueur\SerieA\ROMA\" />
+    <Folder Include="image\joueur\SerieA\SAMPDORIA\" />
+    <Folder Include="image\joueur\SerieA\SASSUOLO\" />
+    <Folder Include="image\joueur\SerieA\TORINO\" />
+    <Folder Include="image\joueur\SerieA\UDINESE\" />
+    <Folder Include="image\logoEquipe\Bundesliga\" />
+    <Folder Include="image\logoEquipe\LIgaSantander\" />
+    <Folder Include="image\logoEquipe\Ligue1\" />
+    <Folder Include="image\logoEquipe\PremierLeague\" />
+    <Folder Include="image\logoEquipe\SerieA\" />
     <Folder Include="image\logoLigue\" />
   </ItemGroup>
   <ItemGroup>

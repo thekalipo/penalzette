@@ -1,0 +1,22 @@
+﻿<Window x:Class="penalzette.SélectionEquipe"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:penalzette"
+        mc:Ignorable="d"
+        Title="SélectionEquipe" Height="480" Width="608">
+    <Grid>
+        <TextBox x:Name="textBoxnomligue" HorizontalAlignment="Left" Height="25" Margin="234,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="142"/>
+        <ListView x:Name="listViewequipe" HorizontalAlignment="Left" Height="319" Margin="10,50,0,0" VerticalAlignment="Top" Width="580">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button x:Name="buttonvalider" Content="Valider" HorizontalAlignment="Left" Height="19" Margin="516,420,0,0" VerticalAlignment="Top" Width="74"/>
+        <Button x:Name="buttonretour" Content="Retour" HorizontalAlignment="Left" Height="19" Margin="428,420,0,0" VerticalAlignment="Top" Width="74"/>
+
+    </Grid>
+</Window>
