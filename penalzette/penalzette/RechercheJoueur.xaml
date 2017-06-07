@@ -1,0 +1,24 @@
+﻿<Window x:Class="penalzette.RechercheJoueur"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:penalzette"
+        mc:Ignorable="d"
+        Title="RechercheJoueur" Height="423" Width="588">
+    <Grid>
+        <Label x:Name="labeltitre" Content="Rechercher votre joueur" HorizontalAlignment="Center" Height="50" FontSize="30" Margin="129,34,110,0" VerticalAlignment="Top" Width="353"/>
+        <Label x:Name="labelLigue" Content="Ligue : " HorizontalAlignment="Left" Height="30" Margin="50,111,0,0" VerticalAlignment="Top" Width="88"/>
+        <Label x:Name="labelClub" Content="Club : " HorizontalAlignment="Left" Height="30" Margin="50,146,0,0" VerticalAlignment="Top" Width="88"/>
+        <Label x:Name="labelNationalite" Content="Nationalité : " HorizontalAlignment="Left" Height="30" Margin="50,181,0,0" VerticalAlignment="Top" Width="88"/>
+        <Label x:Name="labelPoste" Content="Poste : " HorizontalAlignment="Left" Height="30" Margin="50,216,0,0" VerticalAlignment="Top" Width="88"/>
+        <ComboBox x:Name="comboBoxLigue" HorizontalAlignment="Left" Height="30" Margin="170,111,0,0" VerticalAlignment="Top" Width="131"/>
+        <ComboBox x:Name="comboBoxClub" HorizontalAlignment="Left" Height="30" Margin="170,146,0,0" VerticalAlignment="Top" Width="131"/>
+        <ComboBox x:Name="comboBoxNationalite" HorizontalAlignment="Left" Height="30" Margin="170,181,0,0" VerticalAlignment="Top" Width="131"/>
+        <ComboBox x:Name="comboBoxPoste" HorizontalAlignment="Left" Height="30" Margin="170,216,0,0" VerticalAlignment="Top" Width="131"/>
+        <Button x:Name="buttonRechercher" Content="Rechercher" HorizontalAlignment="Left" Height="30" Margin="460,352,0,0" VerticalAlignment="Top" Width="110"/>
+        <Label x:Name="labelRechercheNom" Content="Rechercher avec le nom du joueur : " HorizontalAlignment="Left" Margin="50,275,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxRechercheNom" HorizontalAlignment="Left" Height="26" Margin="254,275,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="131"/>
+        <Button x:Name="buttonretour" Content="Retour à la composition" HorizontalAlignment="Left" Height="30" Margin="320,352,0,0" VerticalAlignment="Top" Width="135"/>
+    </Grid>
+</Window>

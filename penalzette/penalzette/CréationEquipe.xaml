@@ -1,0 +1,22 @@
+﻿<Window x:Class="penalzette.choix"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:penalzette"
+        mc:Ignorable="d"
+        Title="choix" Height="231.147" Width="481.967">
+    <Grid>
+        <Label x:Name="labelchoixligue" Content="Dans quelle ligue voulez-vous évoluer ?" HorizontalAlignment="Left" Height="29" Margin="10,10,0,0" VerticalAlignment="Top" Width="233"/>
+        <RadioButton x:Name="radioButtonligue1" Content="Ligue 1" HorizontalAlignment="Left" Margin="25,44,0,0" VerticalAlignment="Top" GroupName="ligue"/>
+        <RadioButton x:Name="radioButtonligasantander" Content="Liga santander" HorizontalAlignment="Left" Margin="147,44,0,0" VerticalAlignment="Top" GroupName="ligue"/>
+        <RadioButton x:Name="radioButtonpremierligue" Content="Premier League" HorizontalAlignment="Left" Margin="292,44,0,0" VerticalAlignment="Top" GroupName="ligue"/>
+        <RadioButton x:Name="radioButtonseriea" Content="Série A" HorizontalAlignment="Left" Margin="25,70,0,0" VerticalAlignment="Top" GroupName="ligue"/>
+        <RadioButton x:Name="radioButtonbundesliga" Content="Bundesliga" HorizontalAlignment="Left" Margin="147,70,0,0" VerticalAlignment="Top" GroupName="ligue"/>
+        <Label x:Name="labelchoixnom" Content="Donnez un nom à votre équipe" HorizontalAlignment="Left" Height="29" Margin="10,104,0,0" VerticalAlignment="Top" Width="180"/>
+        <TextBox x:Name="textBoxchoixnom" HorizontalAlignment="Left" Height="22" Margin="10,133,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="292"/>
+        <Button x:Name="buttonvalider" Content="Valider" HorizontalAlignment="Left" Height="19" Margin="390,171,0,0" VerticalAlignment="Top" Width="74"/>
+        <Button x:Name="buttonretour" Content="Retour au menu" HorizontalAlignment="Left" Height="19" Margin="290,171,0,0" VerticalAlignment="Top" Width="95"/>
+
+    </Grid>
+</Window>

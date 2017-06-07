@@ -1,0 +1,20 @@
+﻿<Window x:Class="penalzette.RechercheEntraineur"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:penalzette"
+        mc:Ignorable="d"
+        Title="RechercheEntraineur" Height="352" Width="555">
+    <Grid>
+        <Label x:Name="labeltitre" Content="Sélectionnez votre entraineur" FontSize="25" HorizontalAlignment="Center" Height="45" Margin="98,34,89,0" VerticalAlignment="Top" Width="360"/>
+        <Label x:Name="labelligue" Content="Ligue : " HorizontalAlignment="Left" Height="27" Margin="48,114,0,0" VerticalAlignment="Top" Width="74"/>
+        <Label x:Name="labelnationalite" Content="Nationalite : " HorizontalAlignment="Left" Height="27" Margin="48,141,0,0" VerticalAlignment="Top" Width="74"/>
+        <ComboBox x:Name="comboBoxligue" HorizontalAlignment="Left" Height="27" Margin="196,114,0,0" VerticalAlignment="Top" Width="94"/>
+        <ComboBox x:Name="comboBoxnationalite" HorizontalAlignment="Left" Height="27" Margin="196,141,0,0" VerticalAlignment="Top" Width="94"/>
+        <Label x:Name="labelrecherchenom" Content="Recherche avec le nom :" HorizontalAlignment="Left" Height="27" Margin="48,201,0,0" VerticalAlignment="Top" Width="157"/>
+        <TextBox x:Name="textBoxrecherchenom" HorizontalAlignment="Left" Height="27" Margin="196,201,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="141"/>
+        <Button x:Name="buttonrechercher" Content="Rechercher" HorizontalAlignment="Left" Height="29" Margin="431,282,0,0" VerticalAlignment="Top" Width="106"/>
+
+    </Grid>
+</Window>

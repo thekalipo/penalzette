@@ -1,0 +1,16 @@
+﻿<Window x:Class="penalzette.Accueil"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:penalzette"
+        mc:Ignorable="d"
+        Title="Accueil" Height="300" Width="300">
+    <Grid>
+        <Label x:Name="labeltitre" Content="PENALZETTE" FontSize="25" HorizontalAlignment="Center" Height="41" Margin="68,10,70,0" VerticalAlignment="Top" Width="154"/>
+        <Button x:Name="buttoncreerequipe" Content="Créez votre équipe" HorizontalAlignment="Left" Height="34" Margin="61,67,0,0" VerticalAlignment="Top" Width="176" Click="buttonequipe_Click"/>
+        <Button x:Name="buttonquitter" Content="Quitter" HorizontalAlignment="Left" Height="34" Margin="61,216,0,0" VerticalAlignment="Top" Width="176"/>
+        <Button x:Name="buttonselectionequipe" Content="Jouer avec une équipe existante" HorizontalAlignment="Left" Height="34" Margin="61,106,0,0" VerticalAlignment="Top" Width="176"/>
+
+    </Grid>
+</Window>

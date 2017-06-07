@@ -1,0 +1,2 @@
+c:\users\theka\documents\visual studio 2015\Projects\penalzette\penalzette\bin\Debug\penalzette.exe.config
+P:\semestre 2\semaine spe ihm\penalzette-master\penalzette\penalzette\bin\Debug\penalzette.exe.config

@@ -1,0 +1,36 @@
+﻿<Window x:Class="penalzette.ResultatRechercheEntraineur"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:penalzette"
+        mc:Ignorable="d"
+        Title="ResultatRechercheEntraineur" Height="388.328" Width="473.766">
+    <Grid>
+        <ListView x:Name="listViewEntraineur" HorizontalAlignment="Left" Height="201" Margin="10,10,0,0" VerticalAlignment="Top" Width="444">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Image x:Name="imageentraineur" HorizontalAlignment="Left" Height="129" Margin="10,216,0,0" VerticalAlignment="Top" Width="89"/>
+        <Label x:Name="labelnomentraineur" Content="Nom:" HorizontalAlignment="Left" Height="23" Margin="104,216,0,0" VerticalAlignment="Top" Width="50" FontSize="10"/>
+        <Label x:Name="labelprenomentraineur" Content="Prénom:" HorizontalAlignment="Left" Height="23" Margin="104,239,0,0" VerticalAlignment="Top" Width="50" FontSize="10"/>
+        <Label x:Name="labelageentraineur" Content="Age:" HorizontalAlignment="Left" Height="23" Margin="104,262,0,0" VerticalAlignment="Top" Width="50" FontSize="10"/>
+        <Label x:Name="labelnationaliteentraineur" Content="Nationalité:" HorizontalAlignment="Left" Height="23" Margin="274,216,0,0" VerticalAlignment="Top" Width="63" FontSize="10"/>
+        <Label x:Name="labelsalaireentraineur" Content="Salaire:" HorizontalAlignment="Left" Height="23" Margin="104,285,0,0" VerticalAlignment="Top" Width="50" FontSize="10"/>
+        <Label x:Name="labelligueentraineur" Content="Ligue:" HorizontalAlignment="Left" Height="23" Margin="274,239,0,0" VerticalAlignment="Top" Width="63" FontSize="10"/>
+        <Label x:Name="labelcharismeentraineur" Content="Charisme:" HorizontalAlignment="Left" Height="23" Margin="274,262,0,0" VerticalAlignment="Top" Width="50" FontSize="10"/>
+        <TextBox x:Name="textBoxnomentraineur" HorizontalAlignment="Left" Height="23" Margin="154,216,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="110"/>
+        <TextBox x:Name="textBoxprenomentraineur" HorizontalAlignment="Left" Height="23" Margin="154,239,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="110"/>
+        <TextBox x:Name="textBoxageentraineur" HorizontalAlignment="Left" Height="23" Margin="154,262,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="110"/>
+        <TextBox x:Name="textBoxsalaireentraineur" HorizontalAlignment="Left" Height="23" Margin="154,285,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="110"/>
+        <TextBox x:Name="textBoxnationaliteentraineur" HorizontalAlignment="Left" Height="23" Margin="337,216,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="110"/>
+        <TextBox x:Name="textBoxligueentraineur" HorizontalAlignment="Left" Height="23" Margin="337,239,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="110"/>
+        <TextBox x:Name="textBoxcharismeentraineur" HorizontalAlignment="Left" Height="23" Margin="337,262,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="110"/>
+        <Button x:Name="buttonretourentraineur" Content="Retour à la recherche" HorizontalAlignment="Left" Margin="195,327,0,0" VerticalAlignment="Top" Width="122"/>
+        <Button x:Name="buttonajouterentraineur" Content="Ajouter cet entraineur" HorizontalAlignment="Left" Margin="329,327,0,0" VerticalAlignment="Top" Width="127"/>
+
+    </Grid>
+</Window>
